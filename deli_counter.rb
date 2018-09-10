@@ -1,7 +1,5 @@
-katz_deli = []
-
-def line
-  if katz_deli.size == 0
+def line queue
+  if queue.size == 0
     puts "The line is currently empty."
   else
 
@@ -14,8 +12,8 @@ def take_a_number queue, person
 
 end
 
-def now_serving
-  if katz_deli.size == 0
+def now_serving queue
+  if queue.size == 0
     puts "There is nobody waiting to be served!"
   else
     "Now serving #{katz_deli.pop}"
