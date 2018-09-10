@@ -8,7 +8,7 @@ end
 
 def take_a_number queue, person
   queue.push person
-  puts "#{queue.size}"
+  puts "Welcome, #{person}. You are number #{queue.size} in line."
 
 end
 
